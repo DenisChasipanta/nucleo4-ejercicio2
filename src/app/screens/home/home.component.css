@@ -1,0 +1,16 @@
+.fondo-home {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  app-navbar {
+    margin-bottom: 20px;
+  }
+  
+  app-auto-form,
+  app-lista-de-autos,
+  app-auto-filter,
+  app-auto-detail {
+    margin-bottom: 20px;
+  }
+  

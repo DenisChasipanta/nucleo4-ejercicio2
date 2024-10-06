@@ -1,0 +1,43 @@
+<div>
+    <app-navbar></app-navbar>
+</div>
+<div class="container mt-4">
+    <h2>{{ isEdit ? 'Editar Auto' : 'Agregar Nuevo Auto' }}</h2>
+    <form (ngSubmit)="saveAuto()">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" class="form-control" [(ngModel)]="auto.nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="marca">Marca:</label>
+            <select id="marca" class="form-control" [(ngModel)]="auto.marca" name="marca" required>
+                <option value="" disabled selected>Seleccione una marca</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Ford">Ford</option>
+                <option value="Chevrolet">Chevrolet</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" class="form-control" [(ngModel)]="auto.modelo" name="modelo" required>
+        </div>
+        <div class="form-group">
+            <label for="anio">Año de Fabricación:</label>
+            <input type="number" id="anio" class="form-control" [(ngModel)]="auto.anio" name="anio" required>
+        </div>
+        <div class="form-group">
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" class="form-control" [(ngModel)]="auto.precio" name="precio" required>
+        </div>
+        <div class="form-group">
+            <label for="duenos">Dueños Anteriores:</label>
+            <input type="text" id="duenos" class="form-control" [(ngModel)]="auto.duenos" name="duenos"
+                placeholder="Ingrese nombres de dueños separados por comas">
+        </div>
+        <button type="submit" class="btn btn-primary">{{ isEdit ? 'Actualizar' : 'Agregar' }}</button>
+        <button *ngIf="isEdit" (click)="deleteAuto()" class="btn btn-danger">Eliminar</button>
+    </form>
+</div>
+<div>
+    <app-footer></app-footer>
+</div>

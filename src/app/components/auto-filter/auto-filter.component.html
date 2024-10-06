@@ -1,0 +1,20 @@
+<!-- auto-filter.component.html -->
+<div>
+    <app-navbar></app-navbar>
+</div>
+<form [formGroup]="filterForm" (ngSubmit)="onFilter()">
+    <label for="minPrice">Precio Mínimo:</label>
+    <input id="minPrice" formControlName="minPrice">
+
+    <label for="maxPrice">Precio Máximo:</label>
+    <input id="maxPrice" formControlName="maxPrice">
+
+    <button type="submit">Filtrar</button>
+</form>
+
+<div *ngFor="let auto of filteredAutos">
+    <p>{{ auto.nombre }} - {{ auto.price }}</p>
+</div>
+<div>
+    <app-footer></app-footer>
+</div>

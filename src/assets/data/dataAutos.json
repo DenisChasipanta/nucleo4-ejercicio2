@@ -1,0 +1,94 @@
+{
+  "autos": [
+    {
+      "id": "0d25",
+      "nombre": "Denis Chasipanta",
+      "marca": "Toyota",
+      "modelo": "ww",
+      "anio": 2007,
+      "precio": 20039,
+      "duenos": "denis,ded"
+    },
+    {
+      "id": "1a34",
+      "nombre": "Maria Gomez",
+      "marca": "Honda",
+      "modelo": "Civic",
+      "anio": 2015,
+      "precio": 18500,
+      "duenos": "maria,juan"
+    },
+    {
+      "id": "2b45",
+      "nombre": "Pedro Lopez",
+      "marca": "Ford",
+      "modelo": "Mustang",
+      "anio": 2019,
+      "precio": 35000,
+      "duenos": "pedro,laura"
+    },
+    {
+      "id": "3c56",
+      "nombre": "Lucia Morales",
+      "marca": "Chevrolet",
+      "modelo": "Spark",
+      "anio": 2020,
+      "precio": 15000,
+      "duenos": "lucia,miguel"
+    },
+    {
+      "id": "4d67",
+      "nombre": "Andres Jimenez",
+      "marca": "Nissan",
+      "modelo": "Altima",
+      "anio": 2018,
+      "precio": 24000,
+      "duenos": "andres,patricia"
+    },
+    {
+      "id": "5e78",
+      "nombre": "Carlos Ruiz",
+      "marca": "Kia",
+      "modelo": "Sportage",
+      "anio": 2021,
+      "precio": 28000,
+      "duenos": "carlos,sara"
+    },
+    {
+      "id": "6f89",
+      "nombre": "Ana Torres",
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "anio": 2016,
+      "precio": 19000,
+      "duenos": "ana,jorge"
+    },
+    {
+      "id": "7g90",
+      "nombre": "Javier Castillo",
+      "marca": "Subaru",
+      "modelo": "Outback",
+      "anio": 2022,
+      "precio": 33000,
+      "duenos": "javier,maria"
+    },
+    {
+      "id": "8h01",
+      "nombre": "Elena Reyes",
+      "marca": "Volkswagen",
+      "modelo": "Jetta",
+      "anio": 2017,
+      "precio": 22000,
+      "duenos": "elena,roberto"
+    },
+    {
+      "id": "9i12",
+      "nombre": "Rafael Silva",
+      "marca": "BMW",
+      "modelo": "X3",
+      "anio": 2014,
+      "precio": 45000,
+      "duenos": "rafael,sofia"
+    }
+  ]
+}
